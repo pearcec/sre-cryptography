@@ -6,3 +6,7 @@
 * [CSR](csr.md)
 * [Certificates](certificates.md)
 * [Bits](bits.md)
+
+## Appendix
+
+* [License](appendix/license.md)
