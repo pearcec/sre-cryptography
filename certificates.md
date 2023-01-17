@@ -15,3 +15,10 @@ openssl s_client -connect stackoverflow.com:443 -servername stackoverflow.com| o
 ```
 openssl x509 -in cert.crt -text
 ```
+
+The `cert.crt` file is usually armored as follows
+
+```
+-----BEGIN CERTIFICATE-----
+MIIFYDCC
+```
