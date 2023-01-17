@@ -10,3 +10,8 @@ openssl pkcs12 -export -out cert.pfx -in tmp.pem
 ```
 openssl s_client -connect stackoverflow.com:443 -servername stackoverflow.com| openssl x509 -enddate -noout
 ```
+
+## Decode a x509 certificate
+```
+openssl x509 -in cert.crt -text
+```
