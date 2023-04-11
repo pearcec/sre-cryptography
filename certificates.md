@@ -22,3 +22,11 @@ The `cert.crt` file is usually armored as follows
 -----BEGIN CERTIFICATE-----
 MIIFYDCC
 ```
+
+## Convert a x509 certificate into DER format
+
+This might be used to add a self signed CA cert to a windows certificate store
+
+```
+openssl x509 -pubkey -outform der -in ./root.pem -out ./root.cer
+```
